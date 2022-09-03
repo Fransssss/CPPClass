@@ -5,7 +5,7 @@
 
 using std::stringstream;
 
-// default constructor - with constructor initializer list style
+// default constructor - constructor initializer list style
 WishList::WishList() : _name("NoName"), _color("NoColor"), _quantity(-1), _price(0.0), _total(0.0) {}
 
 // constructor
