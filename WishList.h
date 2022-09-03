@@ -16,7 +16,7 @@ private:
     double _price;
     double _total;
 public:
-WishList();
+WishList();                                                             // default constructor
 WishList(const string& theName, const string& theColor, const int& theQuantity, const double& thePrice, const double& theTotal);
 string GetName() const;
 string GetColor() const;
