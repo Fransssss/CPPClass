@@ -16,13 +16,13 @@ bool Validate(const string& strDigit)
 
     for(size_t i = 0; i < amountValidDigit; ++i)
     {
-        if(isdigit(strDigit[i]))
+        if(isdigit(strDigit[i]))                          // every time digit is seen
         {
-            keepTrackValidDigit++;
+            keepTrackValidDigit++;                        // increment by one
         }
     }
 
-    if(keepTrackValidDigit != amountValidDigit)
+    if(keepTrackValidDigit != amountValidDigit)           // after the tracking and not all digit then return false
     {
         return false;
     }
