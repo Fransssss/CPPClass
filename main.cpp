@@ -8,12 +8,6 @@
 // its color, quantity, price per quantity, and total pride to buy from BestBuy store
 // ========================
 
-// Objectives:
-// Default constructor
-// Constructor initializer lists
-// New allocated memory
-// Delete Deallocated memory
-// user Member Access ->
 
 #include <iostream>
 #include "WishList.h"
